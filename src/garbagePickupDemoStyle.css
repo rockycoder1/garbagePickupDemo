@@ -8,10 +8,6 @@ body {
   align-items: flex-start;
 }
 
-video {
-  display: block;
-}
-
 section {
   opacity: 1;
   transition: opacity 500ms ease-in-out;
@@ -21,10 +17,11 @@ section {
   display: none;
 }
 
-.prediction-window {
-  position: absolute;
-  z-index: 20;
+video {
+  display: block;
 }
+
+
 
 .container {
   width: 400px;
@@ -200,6 +197,13 @@ section {
     -webkit-transform: rotate(170deg);
     transform: rotate(170deg);
   }
+}
+
+
+
+.prediction-window {
+  position: absolute;
+  z-index: 20;
 }
 
 .video-display-container {

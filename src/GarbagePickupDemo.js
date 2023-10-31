@@ -358,6 +358,9 @@ const emptyTrashTolerance = (start) => {
         <p className="garbagedemo-testcases">
           tested on: pixel 7 and iphone 11, chrome browser
         </p>
+
+
+
         <div className="container">
           <div className="top-container">
             <div className="top-title">
@@ -394,7 +397,6 @@ const emptyTrashTolerance = (start) => {
               </button>
             </div>
           </div>
-
           <div className="graphic-display">
             <div className={modelStatusCss}>
               <p>{modelStatus}</p>
@@ -404,7 +406,6 @@ const emptyTrashTolerance = (start) => {
               <FaTrashAlt className={trashCanCss} />
             </div>
           </div>
-
           <div className="video-display-container">
             <div className="video-display-buttons">
               <button
@@ -428,11 +429,14 @@ const emptyTrashTolerance = (start) => {
                 playsInline
                 width={videoWidth}
                 height={videoHeight}
-              ></video>
+              />
             </div>
           </div>
         </div>
       </div>
+
+
+
       <div className="pickup-stats">
         <hr className="hr-pickup" />
 
