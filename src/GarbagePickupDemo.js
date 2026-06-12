@@ -372,7 +372,7 @@ const emptyTrashTolerance = (start) => {
                   Step 1: Open youtube
                   <a
                     className="youtube-link"
-                    href="https://www.youtube.com/watch?v=EpfElFyx8L8"
+                    href="https://www.youtube.com/watch?v=BDvKU2j21vw"
                     target="_blank"
                   >
                     "Garbage pickup sample video"
